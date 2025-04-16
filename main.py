@@ -7,7 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TOKEN = 1234567890:AAHkjKjfsdfjhWEOijwoewr23rfsdfJfI
+
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=TOKEN)
