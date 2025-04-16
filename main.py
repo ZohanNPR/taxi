@@ -1,16 +1,13 @@
+
 import logging
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import Message
 from aiogram.utils import executor
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-
-TOKEN = 1234567890:AAHkjKjfsdfjhWEOijwoewr23rfsdfJfI
-
 
 logging.basicConfig(level=logging.INFO)
+
+TOKEN = "7900443929:AAHsG3q-ivJyY-dZDI5c3rsfP3YeYjEiokk"
+
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
